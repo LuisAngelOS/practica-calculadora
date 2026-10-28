@@ -1,0 +1,7 @@
+{   "name": "practica-calculadora",
+   "version": "1.0.0", 
+     "description": "Calculadora web con pruebas automaticas", 
+       "scripts": {   
+          "test": "node --test" 
+          
+          } } 
