@@ -2,7 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const { operar } = require("./calculadora.js");
 
-test("suma", () => assert.equal(operar(2, 3, "sumar"), 6));
+test("suma", () => assert.equal(operar(2, 3, "sumar"), 5));
 test("resta", () => assert.equal(operar(9, 4, "restar"), 5));
 test("multiplicación", () => assert.equal(operar(3, 4, "multiplicar"), 12));
 test("división", () => assert.equal(operar(10, 2, "dividir"), 5));
